@@ -1,0 +1,17 @@
+{
+  "name": "Blender_JSON_Exporter",
+  "version": "5.x.x",
+  "description": "Writes .json file from Blender file to Argil",
+  "main": "",
+  "repository": {
+    "url": "https://github.com/OlivierSud/Exporter-blender-to-babylon?tab=readme-ov-file"
+  },
+  "readme": "https://github.com/OlivierSud/Exporter-blender-to-babylon/blob/main/README.md",
+  "license": "(Apache-2.0)",
+  "scripts": {
+    "Blender-ZIP": "node buildZipFile.js"
+  },
+  "devDependencies": {
+    "zip-folder": "^1.0.0"
+  }
+}

@@ -153,12 +153,12 @@ bpy.types.World.positionsPrecision = bpy.props.IntProperty(
 bpy.types.World.normalsPrecision = bpy.props.IntProperty(
     name='Normals:',
     description='Max number of digits for normals',
-    default = 3, min = 1, max = 8
+    default = 4, min = 1, max = 8
 )
 bpy.types.World.UVsPrecision = bpy.props.IntProperty(
     name='UVs:',
     description='Max number of digits for UVs',
-    default = 3, min = 1, max = 8
+    default = 4, min = 1, max = 8
 )
 bpy.types.World.vColorsPrecision = bpy.props.IntProperty(
     name='Vertex Colors:',
